@@ -1,0 +1,25 @@
+# Checkpoints & Data
+checkpoints/
+*.pt
+*.pth
+
+# Outputs & Visualizations
+reconstruction_vis.html
+*.html
+
+# Large point cloud binaries & raw data
+data/
+*.las
+*.laz
+*.ply
+*.pcd
+
+# Jupyter Notebook & Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Virtual environments
+.venv/
+.vscode/
